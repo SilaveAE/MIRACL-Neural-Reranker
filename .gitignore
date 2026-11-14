@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+tempCodeRunnerFile.py
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Logs & caches
+*.log
+.cache/
+.pytest_cache/
+
+# Data & Datasets (MIRACL corpus, topics, qrels, processed pairs)
+data/
+corpus/
+qrels/
+topics/
+*.jsonl
+*.jsonl.gz
+*.tsv
+*.csv
+*.zip
+
+# Trained Models & Weights (Hugging Face / PyTorch)
+models/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt

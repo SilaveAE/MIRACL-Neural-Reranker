@@ -1,7 +1,5 @@
 import argparse
-import json
 import logging
-import os
 from pathlib import Path
 
 from src.utils import (build_pairs, format_doc_text, get_all_qrels_docids,

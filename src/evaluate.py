@@ -2,7 +2,6 @@ import argparse
 import json
 import logging
 import statistics
-from pathlib import Path
 
 from sentence_transformers import CrossEncoder
 from src.utils import read_qrels, read_topics
